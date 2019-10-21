@@ -17,7 +17,7 @@ class App extends React.Component {
     transactions: []
   }
   //Save user info to pass down to components
-  setUser = (login) =>{
+  setUser = (login) => {
     this.setState({
       id: login.user.id,
       balance: login.user.balance,
