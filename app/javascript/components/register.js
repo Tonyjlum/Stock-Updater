@@ -20,7 +20,7 @@ class Register extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    fetch("http://localhost:3000/v1/register",{
+    fetch("https://stock-checker-manager-app.herokuapp.com/v1/register",{
       method: "POST",
       headers: {
         "Content-Type": "application/json",

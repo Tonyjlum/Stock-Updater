@@ -9,7 +9,7 @@ class TransactionContainer extends PureComponent {
   }
 
   componentDidMount(){
-    fetch(`http://localhost:3000/v1/users/${this.props.user.id}`)
+    fetch(`https://stock-checker-manager-app.herokuapp.com/v1/users/${this.props.user.id}`)
     .then(resp => resp.json())
     .then( resp => {
       this.setState({transactions: resp.user.transactions})

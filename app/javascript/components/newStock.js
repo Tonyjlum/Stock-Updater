@@ -84,7 +84,7 @@ class NewStock extends Component {
       if (total_cost > this.state.balance || this.state.quantity == 0){
         window.confirm(`You do not have enought to purchase ${this.state.quantity} shares of ${this.state.ticker_symbol}. Please lower your quantity.`)
       } else {
-        fetch("http://localhost:3000/v1/transactions", {
+        fetch("https://stock-checker-manager-app.herokuapp.com/v1/transactions", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

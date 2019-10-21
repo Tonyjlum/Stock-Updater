@@ -23,7 +23,7 @@ class Login extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    fetch("http://localhost:3000/v1/login",{
+    fetch("https://stock-checker-manager-app.herokuapp.com/v1/login",{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
