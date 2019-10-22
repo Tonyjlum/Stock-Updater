@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+ Body {
+     background-image: url("../../javascript/img/dot-grid.png");
+ }
