@@ -14,3 +14,4 @@ Rails s will open up the server on http://localhost:3000/
 To access the API, use http://localhost:3000/v1/
 
 Rails c will open the rails console and quit will exit the console.
+# Stock-Updater
