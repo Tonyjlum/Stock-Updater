@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import '../app.css';
+// import '../app.css';
+import '../application.css'
 
 import {BrowserRouter, Switch, Route} from "react-router-dom"
 
